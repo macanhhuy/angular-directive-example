@@ -1,0 +1,10 @@
+<section class="sign-in" ng-show="show==true">
+
+    <form class="well form-inline">
+        <input type="email" placeholder="Username" ng-model="username" required />
+        <input type="password" placeholder="Password" ng-model="password" required />
+        <button ng-click="signin()">Signin</button>
+    </form>
+    <button ng-click="signout()">Signout</button>
+
+</section>
