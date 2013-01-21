@@ -1,25 +1,25 @@
-basePath = '../../';
+basePath = '../../app';
 
 files = [
     JASMINE,
     JASMINE_ADAPTER,
 
     // the libraries
-    'app/scripts/lib/**/angular.min.js',
-    'app/scripts/lib/**/*.min.js',
-    'test/lib/angular/angular-mocks.js',
-    'test/fixtures/responses.js',
+    'scripts/lib/**/angular.min.js',
+    'scripts/lib/**/*.min.js',
+    '../test/lib/angular/angular-mocks.js',
+    '../test/fixtures/responses.js',
 
     // the app
-    'app/scripts/app.js',
-    'app/scripts/*.js',
-    'app/scripts/**/*.js',
+    'scripts/app.js',
+    'scripts/*.js',
+    'scripts/**/*.js',
 
     // the tests
-    'test/unit/**/*.js',
+    '../test/unit/**/*.js',
 
     // the templates
-    'app/views/**/*.html'
+    'views/**/*.html'
 ];
 
 // generate js files from html templates
